@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "lib": ["dom", "dom.iterable", "esnext"],                                       
+    "allowJs": true,      // permaite termos arquivos tanto JS quanto TypeScript                            
+    "jsx": "react-jsx",   // Fala que estamos usando JSX do React                            
+    "noEmit": true,       // Caso executemos o build da aplicação ele não emita o código dela                        
+    "strict": true,       // entrr no modo strict JavaScript                           
+    "moduleResolution": "node",                      
+    "resolveJsonModule": true,    // adiciona a possibilidade de importamos arquivos JSON                
+    "isolatedModules": true,                         
+    "allowSyntheticDefaultImports": true,            
+    "esModuleInterop": true,                            
+    "skipLibCheck": true,                                
+    "forceConsistentCasingInFileNames": true,           
+  },
+  "include": ["src"] // onde o código da nossa aplicação vai estar
+}
